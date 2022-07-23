@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    border: none;
+    background-color: #ffffff;
+}
+
+.header {
+    margin: 15px 368px ;
+    padding: 0 40px;
+}
+
+.logo {
+    width: auto;
+}
+
+.header__container {
+    display: flex;
+}
+
+nav { 
+    margin: 10px 5px;
+    padding: 10px 50px;
+}
+
+.top__navbar{
+    display: flex;
+}
+
+/* navigation bar top left side */
+
+.left__nav {
+    display: flex;
+    margin: 0 100px 0 0;
+}
+
+.language__toggler {
+    padding: 0 30px 0 0;
+}
+
+.left__nav ul {
+    display: flex;
+    list-style: none;    
+}
+
+.left__nav ul li{
+    padding-right: 30px;
+}
+
+.left__nav ul a {
+    text-decoration: none;
+}
+
+/* navigation bar top right side */
+
+.right__nav {
+    display: flex;    
+}
+
+.right__nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.right__nav ul li {
+    margin-right: 30px;
+
+}
+
+.right__nav ul a {
+    text-decoration: none;
+}
+
+.primary__nav {
+    margin-top: 26px;
+}
+
+.primary__nav ul {
+    display: flex;
+    list-style: none;
+}
+
+/* .order__menu {
+    padding-right: 10px;
+} */
+
+.primary__nav ul li {
+    padding: 10px 15px 0 0;
+}
+
+.primary__nav ul a {
+    text-decoration: none;
+}
+
